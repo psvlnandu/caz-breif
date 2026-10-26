@@ -1,0 +1,31 @@
+{
+  "town": "Cazenovia, NY",
+  "timezone": "America/New_York",
+  "location": {
+    "city": "Cazenovia",
+    "region": "New York",
+    "country": "US"
+  },
+  "model": "claude-opus-5-5",
+  "voice": "en-US-AriaNeural",
+  "retention_days": 14,
+  "event_lookahead_days": 30,
+  "brief_max_words": 300,
+  "interests": [
+    "community events I can attend (runs, 5Ks, volunteer cleanups, festivals, markets)",
+    "farmers market dates, last days of seasonal markets",
+    "Erie Canal / Cazenovia Lake / Chittenango Falls outdoor and volunteer events",
+    "village and town board decisions, road closures, school news",
+    "new businesses and restaurants"
+  ],
+  "sources": [
+    {"name": "Cazenovia Republican (Eagle News)", "url": "https://www.eaglenewsonline.com/cazenovia_republican/"},
+    {"name": "CNY Signal", "url": "https://cnysignal.com/"},
+    {"name": "Patch Cazenovia calendar", "url": "https://patch.com/new-york/cazenovia-ny/calendar"},
+    {"name": "Village of Cazenovia", "url": "https://villageofcazenoviany.gov/"},
+    {"name": "Greater Cazenovia Area Chamber of Commerce", "url": "https://cazenoviachamber.com/"},
+    {"name": "Cazenovia Public Library events (Mid-York)", "url": "https://midyork.libnet.info/events"},
+    {"name": "Madison County Tourism", "url": "https://www.madisontourism.com/"},
+    {"name": "Races near Cazenovia", "url": "https://www.findtherun.com/races/cazenovia-ny"}
+  ]
+}
